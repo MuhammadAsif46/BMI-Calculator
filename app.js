@@ -21,6 +21,7 @@ const calculateBMI = () => {
     }
 
     document.getElementById("result").innerHTML = "Your BMI is: " + bmi;
+    document.getElementById("form").reset();
   } else {
     document.getElementById("result").innerHTML =
       "Please enter both weight and height.";
